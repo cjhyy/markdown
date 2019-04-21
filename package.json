@@ -1,0 +1,37 @@
+{
+  "name": "markdown",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://cjhyy.github.io/markdown",
+  "dependencies": {
+    "antd": "^3.16.3",
+    "babel-plugin-import": "^1.11.0",
+    "customize-cra": "^0.2.12",
+    "highlight.js": "^9.15.6",
+    "marked": "^0.6.2",
+    "react": "^16.8.6",
+    "react-app-rewired": "^2.1.1",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
